@@ -14,8 +14,6 @@ const NewUserForm = () => {
   const [password, setPassword] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
-  const handleType = ()=>{}
-
   const submit = (e) => {
     e.preventDefault();
     const enterprise = {
